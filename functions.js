@@ -36,6 +36,8 @@ function sumar(a, b) {
 let resultado = sumar(5, 7);
 console.log("El resultado de la suma es: " + resultado); // Output: El resultado de la suma es: 12
 
+console.log(suma(7, suma(5, 3))); // Output: 15
+
 // Función anónima asignada a una variable
 let multiplicar = function(a, b) {
     return a * b; // Esta línea devuelve el producto de a y b
